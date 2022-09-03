@@ -42,14 +42,13 @@ a:hover {
 a:hover::after{
     width: 100%;
 }
-
 header {
     display: flex;
     justify-content: center;
     height: 70vh;
     flex-direction: column;
 }
-#slider{
+#slider {
     overflow: hidden;
 }
 #slider figure {
@@ -92,4 +91,5 @@ header {
     100% {
         left: -400%;
     }
+
 }
